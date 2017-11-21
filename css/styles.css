@@ -1,0 +1,170 @@
+body{
+  padding: 0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#hamburger, #close{
+  font-size:100px;
+  text-decoration:none;
+  float:right;
+  display:inline-block;
+}
+
+#hamburger{
+  color:white;
+}
+
+#close{
+  color:purple;
+  display:none;
+}
+
+input[name="email"] {
+  padding: 6px;
+}
+
+.big{
+  width:1000px !important;
+  color:blue;
+  background-color: red;
+}
+
+header {
+  margin-top:120px;
+}
+
+nav{
+  background: #80C2B3;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  height:120px;
+}
+
+nav ul{
+  margin:0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+li{
+  list-style:none;
+  padding:50px;
+  font-size:24px;
+}
+
+li a{
+  text-decoration:none;
+}
+
+.open-nav{
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+  display:flex;
+  justify-content: flex-start;
+  background:#80C2B3;
+  flex-direction: column;
+
+}
+
+h1{
+  margin:0;
+  font-size: 50px;
+}
+
+header{
+  background: #B7E6D6;
+  text-align:center;
+}
+
+header h1{
+  font-size:70px;
+  color:white;
+}
+
+.cupcake{
+  width: 200px;
+}
+
+#about{
+  background: pink ;
+
+}
+aside{
+  background:#E4E8C6;
+  width:500px;
+}
+
+.social{
+  background:#E4E8C6;
+  text-align:center;
+}
+
+.social a{
+  color:pink;
+  font-size:70px;
+  padding:20px;
+}
+
+.social a:hover{
+
+    color:forestgreen;
+}
+
+
+footer{
+    background: #80C2B3;
+}
+
+.fine-print{
+  margin-bottom: 0;
+}
+
+main .wrapper{
+  flex-direction: row-reverse;
+}
+
+.wrapper{
+  display: flex;
+}
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+  nav ul{
+    display:none;
+  }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+nav ul{
+  display:none;
+}
+
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #hamburger {
+    display:none;
+  }
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #hamburger{
+      display:none;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #hamburger{
+      display:none;
+    }
+   }
